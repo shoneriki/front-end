@@ -21,7 +21,6 @@
     flex-grow: 1;
     margin: 0;
     padding: 0;
-    background-image: url(interactive-pricing-component/images/bg-pattern.svg);
   }
 
   .header-wrap{
@@ -30,12 +29,28 @@
     top: 5%;
   }
   .cta-wrap {
-    position: relative;
+    position: absolute;
     top: 5%;
+    left: 36%;
+    z-index: 10;
   }
+
+  .cta-wrap h1{
+    font-size: 30px;
+  }
+
+  .cta-wrap p{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+
   .circle-svg-wrap {
     margin: 0;
     padding: 0;
+    position: absolute;
+    top: 3%;
+    left: 46%;
   }
 
   .bottom-half {
