@@ -66,9 +66,9 @@ body {
 .views {
   border: 1px solid red;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
 }
 
 .slider-wrap{
