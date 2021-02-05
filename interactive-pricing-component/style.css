@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+
 }
 
 body {
@@ -54,16 +55,85 @@ body {
 
 .price-box{
   border: 5px solid green;
+  background-color:hsl (0, 0%, 100%);
   z-index: 50;
-  width: 25%;
+  width: 25vw;
+  height: 40vh;
+  position: relative;
+  bottom: 10rem;
 }
 
 .views {
   border: 1px solid red;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 0 1rem;
+}
+
+.slider-wrap{
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
+
+.slider {
+  border: 1px solid green;
+  width: 90%;
+  height: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.billing-wrapper {
+  border: 5px solid pink;
+  display: flex;
+  justify-content: center;
+}
+
+.billing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+
+.billing-inner {
+  border: 1px solid black;
+  width: 10vw;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.billing-inner p {
+  font-size: 5px;
+}
+
+.orange-billing {
+  background-color:orange;
+  border: 4px solid purple;
+  padding: 0;
+  margin-left: 1rem;
+  margin-right: 1.5rem;
+  height: .5rem;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+  right: 1%;
+}
+
+.orange-billing p{
+  font-size: 2px;
 }
 
 
