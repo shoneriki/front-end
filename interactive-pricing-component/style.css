@@ -29,6 +29,14 @@
     left: 38%;
     top: 5%;
   }
+  .cta-wrap {
+    position: relative;
+    top: 5%;
+  }
+  .circle-svg-wrap {
+    margin: 0;
+    padding: 0;
+  }
 
   .bottom-half {
   }
