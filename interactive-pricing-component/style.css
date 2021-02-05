@@ -1,70 +1,74 @@
-  //full page css
+//full page css
 
-  * {
-    margin: 0;
-    padding: 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
 
-  body {
-    font-family: Manrope;
-    margin: 0;
-    padding: 0;
-  }
+body {
+  font-family: Manrope;
+  margin: 0;
+  padding: 0;
+}
 
-  .page-wrap {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
+.page-wrap {
+  /* display: flex;
+  justify-content: center;
+  text-align: center; */
+}
 
-  .half-page-wrap {
-    flex-grow: 1;
-    margin: 0;
-    padding: 0;
-  }
+.half-page-wrap {
 
-  .header-wrap{
-    position: absolute;
-    left: 38%;
-    top: 5%;
-  }
-  .cta-wrap {
-    position: absolute;
-    top: 5%;
-    left: 36%;
-    z-index: 10;
-  }
+}
 
-  .cta-wrap h1{
-    font-size: 30px;
-  }
-
-  .cta-wrap p{
-    font-size: 15px;
-    margin: 0;
-    padding: 0;
-  }
-
-  .circle-svg-wrap {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 3%;
-    left: 46%;
-  }
-
-  .bottom-half {
-  }
+.half-svg {
+  z-index: 1;
+}
 
 
+.cta-wrap {
+  position: absolute;
+  bottom: 75%;
+  left: 36%;
+  z-index: 10;
+}
+
+.cta-wrap h1{
+  font-size: 30px;
+}
+
+.cta-wrap p{
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.circle-svg {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 10%;
+  left: 46%;
+  z-index: 8;
+}
+
+.bottom-half {
+}
+
+.price-box{
+  border: 5px solid green;
+  z-index: 50;
+}
 
 
 
-  .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
 
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
