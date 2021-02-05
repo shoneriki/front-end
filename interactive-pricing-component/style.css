@@ -12,14 +12,9 @@ body {
 }
 
 .page-wrap {
-  /* display: flex;
-  justify-content: center;
-  text-align: center; */
-}
-
-.half-page-wrap {
 
 }
+
 
 .half-svg {
   z-index: 1;
@@ -52,14 +47,24 @@ body {
   z-index: 8;
 }
 
-.bottom-half {
+.bottom-wrap {
+  display: flex;
+  justify-content: center;
 }
 
 .price-box{
   border: 5px solid green;
   z-index: 50;
+  width: 25%;
 }
 
+.views {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
 
 
 
