@@ -60,7 +60,7 @@ body {
   height: 20vh;
   width: 25vw;
   position: relative;
-  bottom: 6rem;
+  bottom: 7rem;
   z-index: 50;
 }
 
@@ -129,7 +129,7 @@ body {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 30%;
+  top: 57%;
   right: 1%;
 }
 
