@@ -7,40 +7,35 @@
 
   body {
     font-family: Manrope;
+    margin: 0;
+    padding: 0;
   }
 
   .page-wrap {
-    display:flex;
+    display: flex;
     justify-content: center;
     text-align: center;
   }
 
-  .page-wrap h3 {
-    font-size: 15px;
-
-  }
-
-  .page-wrap p {
-    font-size: 6px;
-  }
-
   .half-page-wrap {
     flex-grow: 1;
+    margin: 0;
+    padding: 0;
+    background-image: url(interactive-pricing-component/images/bg-pattern.svg);
   }
 
-  .header-wrap {
-    background-color: hsl(224, 65%, 95%);
-    width: 100%;
-    padding-top: 64px;
-    padding-bottom: 240px;
-    border-bottom-left-radius: 100px;
-
+  .header-wrap{
+    position: absolute;
+    left: 38%;
+    top: 5%;
   }
 
   .bottom-half {
-    background-color: #
-    ;
   }
+
+
+
+
 
   .attribution {
     font-size: 11px;
