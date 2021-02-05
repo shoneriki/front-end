@@ -1,15 +1,52 @@
-  .page-wrap {
-    display:flex;
-    justify-content: center;
+  //full page css
+
+  * {
     margin: 0;
     padding: 0;
   }
 
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
+  body {
+    font-family: Manrope;
+  }
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
+  .page-wrap {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .page-wrap h3 {
+    font-size: 15px;
+
+  }
+
+  .page-wrap p {
+    font-size: 6px;
+  }
+
+  .half-page-wrap {
+    flex-grow: 1;
+  }
+
+  .header-wrap {
+    background-color: hsl(224, 65%, 95%);
+    width: 100%;
+    padding-top: 64px;
+    padding-bottom: 240px;
+    border-bottom-left-radius: 100px;
+
+  }
+
+  .bottom-half {
+    background-color: #
+    ;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
