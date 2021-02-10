@@ -1,0 +1,17 @@
+html {
+  display: block;
+}
+
+body {
+  display: block;
+  margin: 8px;
+  background: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-color: hsl(185, 75%, 39%);
+  background-position: -350px -450px, 650px 400px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
