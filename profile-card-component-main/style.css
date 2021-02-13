@@ -1,14 +1,18 @@
-html {
-  display: block;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background-color: hsl(185, 75%, 39%);
+  margin: 0;
+  padding: 0;
   background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
   background-position: right 54vw bottom 36vh, left 50vw top 44vh;
   background-repeat: no-repeat, no-repeat;
+}
+
+.header {
+  background-image: url(images/bg-pattern-card.svg);
+  position: relative;
+  width: 340px;
+  height: 135px;
+  border-radius: 15px 15px 0 0;
 }
 
 .container {
@@ -16,12 +20,6 @@ body {
   align-items: center;
   height: 100vh;
   justify-content: center;
-}
-
-.card-avatar{
-  border-radius: 50px;
-  position: relative;
-  bottom: 50px;
 }
 
 
@@ -33,75 +31,44 @@ body {
 }
 
 .card-top {
-  border-radius: 15px 15px 0 0;
-}
-
-.top {
-  width: 100%;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  justify-content: center;
-  border-bottom: 1px solid gray;
-}
-
-.top h1{
-  margin: 0;
-  padding: 0;
-}
-
-.top p{
-  margin: 0;
-  padding: 0;
-}
-
-.bottom {
-  display: flex;
-  justify-content: space-around;
-}
-
-.stats {
-  margin-top:0;
-  padding: 1rem 0;
-}
-
-.stats h3,p{
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-/*
-
-.top {
-  border: 2px solid white;
-  height: 23vh;
-  width: 100%;
-  background-color: #fff;
-}
-
-.top-third {
-  background: url(images/bg-pattern-card.svg);
-  height: 50%;
-  max-width: 100%;
-  border: 4px solid black;
-}
-
-.picture  img{
-  border-radius: 50px;
-  position: relative;
-  bottom: 50px;
-  left: 75px;
-
-}
-
-.name {
-  display: flex;
+  background: #fff;
+  height: 145px;
+  display: flex ;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: black;
-  font-family: 'Kumbh Sans', sans-serif;
-} */
+  border-bottom: 1px solid gray;
+}
+
+.card-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid white;
+  align-items: center;
+  margin-top: -60px;
+  z-index: 10;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.stats {
+  margin: 2rem;
+  padding: 0;
+}
+
+.stats h3,p {
+  margin: 0;
+  padding: 0;
+}
+
+
 
 .attribution {
   font-size: 11px;
